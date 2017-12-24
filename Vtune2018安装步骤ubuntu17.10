@@ -1,0 +1,11 @@
+# march
+软件安装文档
+intel VTune Amplifier（2018.1.0.535340）安装步骤:
+1.去网站上下载留下版本的VTune：https://registrationcenter.intel.com/en/products/postregistration/?sn=vbd4-pc5gdj7r&EmailID=2719953285@qq.com&Sequence=2158445&dnld=t
+2.下载到本地，我的目录是：/home/username/下载
+3.cd /home/mengtianhao/下载
+4解压文件：tar -zxvf vtune_amplifier_2018_update1.tar.gz
+5.进入到解压后的目录下：cd vtune_amplifier_2018_update1/
+6.使用超级用户权限（必须使用）： sudo./install.sh
+7.打开amplxe_install_guide_linux.pdf文件，选择安装模式，我选择的是Installing Intel® VTuneTM Amplifier with the Command Line Installer
+8.source /opt/intel/vtune_amplifier_2018.1.0.535340/amplxe-vars.sh
